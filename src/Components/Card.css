@@ -1,0 +1,20 @@
+@media (max-width: 768px) { 
+    .card_container {
+        width: 100% !important;
+        margin-top: 2rem  !important;
+    }
+    /* card_sub_container */
+    .card_sub_container {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+}

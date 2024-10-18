@@ -1,9 +1,10 @@
 import React from "react";
+import './Card.css';
 
 const Card = ({ title, imgUrl }) => {
   return (
     <div className="card_container mt-16 w-[350px] ">
-      <div className="max-w-sm rounded overflow-hidden shadow-lg bg-[#bdbdbe] hover:shadow-[0px_5px_20px_20px_#878787]">
+      <div className=" rounded overflow-hidden shadow-lg bg-[#bdbdbe] hover:shadow-[0px_5px_20px_20px_#878787] card_sub_container">
         <img
           className="w-full h-[250px] object-fill transition-transform duration-500 ease-in-out hover:scale-110"
           src={imgUrl}

@@ -5,6 +5,7 @@ import TesimonialImg2 from '../assets/TestimonialImages/David.png';
 import TesimonialImg3 from '../assets/TestimonialImages/Emily.png';
 import TesimonialImg4 from '../assets/TestimonialImages/Mike.png';
 import TesimonialImg5 from '../assets/TestimonialImages/Sarah.png';
+import '../App.css'
 
 // testimonial data
 const TestimonialDatas = [
@@ -62,7 +63,7 @@ const TestimonialCard = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 relative">
+    <div className="max-w-4xl mx-auto p-4 relative Testimonial_card_container">
       {/* Arrow buttons */}
       <button
         onClick={handlePrevClick}
@@ -82,7 +83,7 @@ const TestimonialCard = () => {
           style={{ transform: `translateX(-${activeIndex * 100}%)` }}
         >
           {TestimonialDatas.map((TestimonialData, index) => (
-            <div key={index} className="flex-shrink-0 w-full p-4">
+            <div key={index} className="flex-shrink-0 w-full p-4 testimonial_Inner_container">
               <div className="border border-[#091057] rounded-lg p-6 text-center">
                 <img
                   src={TestimonialData.ImageUrl}
