@@ -91,8 +91,23 @@
   width: 100% !important;
   padding: 0 !important;
 }
+/* arrow_btn_left */
+.arrow_btn_left {
+  position: absolute;
+  top: 35% !important;
+  left: 0  !important;
+}
+.arrow_btn_right {
+  position: absolute;
+  top: 35% !important;
+  right: 0 !important;
+}
+
 .testimonial_Inner_container {
   padding: 0 !important;
+}
+.testimonial_wrapper {
+  padding: 8px !important;
 }
 
 /* send_Enquirey_container */
@@ -140,30 +155,75 @@
   margin-top: 15px !important;
 }
 
+/* location_container */
+.location_container {
+  padding: 0 !important;
+}
+/* .location_container */
+.location_container h3{
+  padding: 5px !important;
+  font-size: 14px !important;
+}
+
 /* address_container */
 .address_container {
   width: 100% !important;
   padding: 0 !important;
+  display: flex;
+  flex-wrap: wrap;
 }
 /* address_container_para */
 .address_container_para {
   width: 100% !important;
-  font-size: 16px;
+  font-size: 14px;
 }
 
+/* mobile_container */
+.mobile_container {
+  padding:  0!important;
+}
+.mobile_container h3 {
+  padding: 5px !important;
+  font-size: 14px !important;
+}
+
+/* mobileNumber_container */
+.mobileNumber_container {
+  padding: 0 !important;
+}
 /* mobile_number */
 .mobile_number {
   padding: 0 !important;
-  font-size: 16px !important;
+  font-size: 14px !important;
+  margin-top: 8px !important;
 }
 
+
+/* email_container */
+.email_container {
+  padding: 0 !important;
+}
+/* email_container */
+.email_container h3 {
+  padding:  5px !important;
+  font-size: 14px;
+}
 /* email_one */
 .email_one {
   padding: 0 !important;
+  font-size: 14px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 /* email_two */
 .email_two {
   padding: 0 !important;
+  font-size: 14px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -174,6 +234,15 @@
   gap: 16px;
 }
 
+/* footer_logo_container */
+.footer_logo_container {
+  width: 110px !important;
+  height: 110px !important;
+}
+.footer_logo {
+  width: 100px !important;
+  height: 100px !important;
+}
 
 
 }

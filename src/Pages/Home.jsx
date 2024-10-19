@@ -146,31 +146,31 @@ const Home = () => {
       {/* Service List */}
       <div className="p-0">
         <ul className="ml-0 md:ml-[200px] mt-5 md:mt-[20px]">
-          <li className="text-[#091057] font-medium flex items-center p-2">
+          <li className="text-[#091057] font-medium flex items-center p-2 w-fit">
             <AiFillCaretDown className="mr-3 text-[#EC8305]" /> Trousseau Preparations
           </li>
-          <li className="text-[#091057] font-medium flex items-center p-2">
+          <li className="text-[#091057] font-medium flex items-center p-2 w-fit">
             <AiFillCaretDown className="mr-3 text-[#EC8305]" /> DJ/Music
           </li>
-          <li className="text-[#091057] font-medium flex items-center p-2">
+          <li className="text-[#091057] font-medium flex items-center p-2 w-fit">
             <AiFillCaretDown className="mr-3 text-[#EC8305]" /> Venue Booking
           </li>
-          <li className="text-[#091057] font-medium flex items-center p-2">
+          <li className="text-[#091057] font-medium flex items-center p-2  w-fit">
             <AiFillCaretDown className="mr-3 text-[#EC8305]" /> Decor
           </li>
-          <li className="text-[#091057] font-medium flex items-center p-2">
+          <li className="text-[#091057] font-medium flex items-center p-2 w-fit">
             <AiFillCaretDown className="mr-3 text-[#EC8305]" /> Photography Services
           </li>
-          <li className="text-[#091057] font-medium flex items-center p-2">
+          <li className="text-[#091057] font-medium flex items-center p-2 w-fit">
             <AiFillCaretDown className="mr-3 text-[#EC8305]" /> Coordination
           </li>
-          <li className="text-[#091057] font-medium flex items-center p-2">
+          <li className="text-[#091057] font-medium flex items-center p-2 w-fit">
             <AiFillCaretDown className="mr-3 text-[#EC8305]" /> Service Staff
           </li>
-          <li className="text-[#091057] font-medium flex items-center p-2">
+          <li className="text-[#091057] font-medium flex items-center p-2 w-fit">
             <AiFillCaretDown className="mr-3 text-[#EC8305]" /> Invitations
           </li>
-          <li className="text-[#091057] font-medium flex items-center p-2">
+          <li className="text-[#091057] font-medium flex items-center p-2 w-fit">
             <AiFillCaretDown className="mr-3 text-[#EC8305]" /> PR and Media Coverage
           </li>
         </ul>
@@ -287,7 +287,7 @@ const Home = () => {
           <div className="w-full flex  ">
             {/* 1st section */}
             <div className="flex-1 ">
-              <div className="w-full p-3 flex items-center">
+              <div className="w-full p-3 flex items-center location_container">
                 <h3 className="uppercase w-fit flex items-center font-medium text-[#ffffff] bg-[#EC8305] p-2">
                   Location
                 </h3>
@@ -301,14 +301,14 @@ const Home = () => {
             </div>
             {/* 2nd section */}
             <div className="flex-1 ">
-              <div className="w-full p-3 flex items-center">
-                <h3 className="uppercase w-fit flex items-center font-medium text-[#ffffff] bg-[#EC8305] p-2">
+              <div className="w-full p-3 flex items-center  mobile_container">
+                <h3 className="uppercase w-fit flex items-center justify-center font-medium text-[#ffffff] bg-[#EC8305] p-2">
                   Mobile
                 </h3>
                 <div className="w-[25%] h-[1px] ml-2 bg-[#091057]"></div>
               </div>
-              <div className="flex w-full mt-2 p-3 items-center">
-                <FaMobile className="text-[#EC8305]" />
+              <div className="flex w-full mt-2 p-3 items-center mobileNumber_container">
+                <FaMobile className="text-[#EC8305] mt-2" />
                 <a href="" className="p-2 text-lg font-semibold text-[#EC8305] mobile_number">
                   +91 7025783110
                 </a>
@@ -316,13 +316,13 @@ const Home = () => {
             </div>
             {/* 3rd section */}
             <div className="flex-1 ">
-            <div className="w-full p-3 flex items-center">
+            <div className="w-full p-3 flex items-center email_container">
                 <h3 className="uppercase w-fit flex items-center font-medium text-[#ffffff] bg-[#EC8305] p-2">
                   Email id
                 </h3>
                 <div className="w-[25%] h-[1px] ml-2 bg-[#091057]"></div>
               </div>
-              <div className="w-full  mt-2 p-3 justify-center flex flex-col ">
+              <div className="w-full  mt-2 p-3 justify-center flex flex-col email_container ">
                 <a href="" className="p-1 text-[16px] font-normal text-[#838383] email_one">xyz@gmail.com</a>
                 <a href="" className="p-1 text-[16px]  font-normal text-[#838383] email_two" >abc@gmail.com</a>
               </div>

@@ -8,11 +8,12 @@ const Footer = () => {
     <footer className="w-full p-6 flex bg-[#232323] ">
       <div className="flex w-full footer_container ">
         <div className="flex-1 w-full flex justify-start items-center ">
-          <div className="w-[160px] h-[160px] flex justify-center items-center rounded-full border border-l-white ">
+          <div className="w-[160px] h-[160px] flex justify-center items-center rounded-full border border-l-white footer_logo_container">
             <img
               src={FooterLogo}
               alt="footer-logo"
-              className="w-[120px] h-[120px] rounded-full hover:scale-125  "
+              className="w-[120px] h-[120px] rounded-full hover:scale-125  footer_logo"
+              href='/'
             />
           </div>
         </div>

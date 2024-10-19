@@ -67,13 +67,13 @@ const TestimonialCard = () => {
       {/* Arrow buttons */}
       <button
         onClick={handlePrevClick}
-        className="absolute left-9 z-50 top-1/2 transform -translate-y-1/2 p-2 rounded-full "
+        className="absolute left-9 z-50 top-1/2 transform -translate-y-1/2 p-2 rounded-full arrow_btn_left"
       >
         <FiArrowLeft size={24} />
       </button>
       <button
         onClick={handleNextClick}
-        className="absolute right-9 z-50 top-1/2 transform -translate-y-1/2 p-2 rounded-full "
+        className="absolute right-9 z-50 top-1/2 transform -translate-y-1/2 p-2 rounded-full arrow_btn_right"
       >
         <FiArrowRight size={24} />
       </button>
@@ -84,7 +84,7 @@ const TestimonialCard = () => {
         >
           {TestimonialDatas.map((TestimonialData, index) => (
             <div key={index} className="flex-shrink-0 w-full p-4 testimonial_Inner_container">
-              <div className="border border-[#091057] rounded-lg p-6 text-center">
+              <div className="border border-[#091057] rounded-lg p-6 text-center testimonial_wrapper">
                 <img
                   src={TestimonialData.ImageUrl}
                   alt={TestimonialData.Name}
