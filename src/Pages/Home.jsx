@@ -95,13 +95,13 @@ const Home = () => {
   return (
     <div className="home_container w-full">
       {/* Homeslider */}
-      <section className="Home_slider_container w-full h-[100vh]">
+      <section className="Home_slider_container w-full h-[90vh] homeSlider_section_wrapper ">
         <HomeSlider />
       </section>
       {/* About page */}
      <section className="About_section w-full bg-gradient-to-r from-[#DBD3D3] via-[#EAE7E7] to-[#B3ACAC]">
   <div className="About_container w-full p-6 md:p-8 lg:p-[24px]">
-    <div className="md:pl-[200px]">
+    <div className="pl-[200px] About_container_inner ">
       <h2 className="mt-6 text-2xl md:text-3xl lg:text-4xl text-[#091057] font-semibold About_title">
         About Event
       </h2>
@@ -112,14 +112,14 @@ const Home = () => {
         <img
           src={CoupleImg}
           alt="CoupleImg"
-          className= "couple_img  w-[150px] h-[200px] md:w-[200px] md:h-[300px] md:absolute md:left-[750px]"
+          className= "couple_img  w-[150px] h-[200px] md:w-[200px] md:h-[300px] absolute left-[60%]"
         />
       </div>
 
       <h3 className="mt-4 text-2xl md: text-3xl lg: text-4xl font-bold text-[#091057] leading-[1.5] text-start md:text-left">
         Welcome! We are Events <br /> Wedding Planner
       </h3>
-      <p className="mt-5 w-full md:w-[450px] text-[#091057] leading-[1.5] font-medium  md: text-left">
+      <p className="mt-5 w-[450px] text-[#091057] leading-[1.5] font-medium  md: text-left about_section_text">
         I am Shyam, the owner of Royal Events & Wedding, based in Thiruvananthapuram.
         I have been working since 2015 and have covered 150 weddings till now. We are 
         an event management & wedding planning company dedicated to providing customers 
@@ -131,11 +131,11 @@ const Home = () => {
     </div>
 
     {/* Service Section */}
-    <div className="w-full lg:mt-10 md: mt-[460px] relative">
+    <div className="w-full lg:mt-10  relative about_second_section">
         <img
           src={StageDecore}
           alt="StageDecore"
-          className="w-[150px] h-[200px] md:w-[200px] md:h-[300px] md:absolute md:left-[1050px] mt-6 stage_decor_img "
+          className="w-[150px] h-[200px] md:w-[200px] md:h-[300px] md:absolute md:left-[80%] mt-6 stage_decor_img "
         />
       <div className="ml-0 md:ml-[200px] h-12 w-fit p-5 flex items-center relative justify-center md:justify-start bg-[#070927] rounded-lg gap-4">
         <span className="text-[#DBD3D3] font-semibold">WEDDING DESIGN -</span>
@@ -235,7 +235,7 @@ const Home = () => {
               </p>
             </div>
             {/* testimonial */}
-            <div className="w-full mt-[8%]  ">
+            <div className="w-full mt-[8%] flex flex-wrap overflow-hidden ">
               <TestimonialCard />
             </div>
           </div>

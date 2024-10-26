@@ -6,7 +6,7 @@ const Card = ({ title, imgUrl }) => {
     <div className="card_container mt-16 w-[350px] ">
       <div className=" rounded overflow-hidden shadow-lg bg-[#bdbdbe] hover:shadow-[0px_5px_20px_20px_#878787] card_sub_container">
         <img
-          className="w-full h-[250px] object-fill transition-transform duration-500 ease-in-out hover:scale-110"
+          className="w-full h-[250px] object-cover transition-transform duration-500 ease-in-out hover:scale-110"
           src={imgUrl}
           alt="Card Image"
         />

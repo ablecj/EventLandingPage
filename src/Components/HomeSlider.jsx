@@ -76,7 +76,7 @@ const HomeSlider = () => {
             <img
               src={slide.url}
               alt={slide.title}
-              className="w-full h-full object-fit"
+              className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 flex flex-col justify-center p-16 bg-black bg-opacity-50">
               <h1 className="text-[#DBD3D3] text-4xl font-bold">{slide.title}</h1>
