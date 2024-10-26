@@ -2,7 +2,6 @@
   "name": "event-landingpage",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/ablecj/EventLandingPage.git", 
   "type": "module",
   "scripts": {
     "dev": "vite",
