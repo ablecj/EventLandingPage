@@ -116,7 +116,7 @@ const Home = () => {
         />
       </div>
 
-      <h3 className="mt-4 text-2xl md: text-3xl lg: text-4xl font-bold text-[#091057] leading-[1.5] text-start md:text-left">
+      <h3 className="mt-4 text-2xl md:text-3xl lg:text-4xl font-bold text-[#091057] leading-[1.5] text-start md:text-left">
         Welcome! We are Events <br /> Wedding Planner
       </h3>
       <p className="mt-5 w-[450px] text-[#091057] leading-[1.5] font-medium  md: text-left about_section_text">
