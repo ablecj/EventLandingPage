@@ -137,10 +137,10 @@ const Home = () => {
           alt="StageDecore"
           className="w-[150px] h-[200px] md:w-[200px] md:h-[300px] md:absolute md:left-[80%] mt-6 stage_decor_img "
         />
-      <div className="ml-0 md:ml-[200px] h-12 w-fit p-5 flex items-center relative justify-center md:justify-start bg-[#070927] rounded-lg gap-4">
-        <span className="text-[#DBD3D3] font-semibold">WEDDING DESIGN -</span>
-        <span className="text-[#DBD3D3] font-semibold">PERSONAL EVENT -</span>
-        <span className="text-[#DBD3D3] font-semibold">WEDDING PLANNING -</span>
+      <div className="ml-0 md:ml-[200px] h-12 w-fit p-5 flex items-center relative justify-center md:justify-start bg-[#070927] rounded-lg gap-4 service_section_banner">
+        <span className="text-[#DBD3D3] font-semibold service_section_banner_text">WEDDING DESIGN -</span>
+        <span className="text-[#DBD3D3] font-semibold service_section_banner_text">PERSONAL EVENT -</span>
+        <span className="text-[#DBD3D3] font-semibold service_section_banner_text">WEDDING PLANNING -</span>
       </div>
 
       {/* Service List */}

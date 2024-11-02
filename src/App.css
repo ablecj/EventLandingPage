@@ -23,6 +23,18 @@
     right: 192px; */
   }
 
+  /* service_section_banner */
+  .service_section_banner {
+    padding: 24px 10px 24px 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .service_section_banner_text {
+    font-size: 14px;
+    font-weight: 500 !important;
+  }
+
   .couple_img {
     width: 100% !important;
     height: auto !important;
